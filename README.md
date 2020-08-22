@@ -58,7 +58,7 @@ Absolute paths often occur in our code, the meaning is as follows:
 
 ## Evaluation
 
-Follow [Data Setup](#Data Setup) and get all datasets. Please note that keep the dataset path consistent with the path in `devlbert_tasks.yml`.
+Follow [Data Setup](#Data-Setup) and get all datasets. Please note that keep the dataset path consistent with the path in `devlbert_tasks.yml`.
 
 ### VQA
 
