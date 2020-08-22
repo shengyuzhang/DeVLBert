@@ -43,7 +43,7 @@ You can download our pre-trained DeVLBert model in [here](https://drive.google.c
 
 ### Train DeVLBert model by yourself
 
-1: Follow [Data Setup](#Data Setup) and get training dataset. Download pretrain bert-base-uncased model in [here](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz) and bert-base-uncased vocabulary in [here](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt).
+1: Follow [Data Setup](#Data-Setup) and get training dataset. Download pretrain bert-base-uncased model in [here](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased.tar.gz) and bert-base-uncased vocabulary in [here](https://s3.amazonaws.com/models.huggingface.co/bert/bert-base-uncased-vocab.txt).
 
 2: Run `./dic/get_noun_set.py` `./dic/count.py`  `./dic/get_id2class.py` in order to get `"./dic/id2class.npy"`. Run `get_dic.sh` and `./dic/merge_dic.ipynb` to get confounder dictionaries.
 
