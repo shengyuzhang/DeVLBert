@@ -37,6 +37,8 @@ We totally follow the setup of [vilbert](https://github.com/jiasenlu/vilbert_bet
 
 ## Get DeVLBert pre-trained model
 
+This repo is only for design D in our paper. You can realize other designs easily based on the repo.
+
 ### Pre-trained model for Evaluation
 
 You can download our pre-trained DeVLBert model in [here](https://drive.google.com/file/d/151vQVATAlFM6rs5qjONMnIJBGfL8ea-B/view?usp=sharing) and put it under `save/devlbert/`.
