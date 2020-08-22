@@ -70,7 +70,7 @@ Follow [Data Setup](#Data-Setup) and get all datasets. Please note that keep the
 
 ### VCR
 
-We only evaluate in validation set. Run `vcr_train.sh`, and you can get result at the first several lines of `save/VCR_Q-A-VCR_QA-R_bert_base_6layer_6conect-{save_name of vcr_train.sh}/output.txt`.
+We only evaluate on the validation set. Run `vcr_train.sh`, and you can get result at the first several lines of `save/VCR_Q-A-VCR_QA-R_bert_base_6layer_6conect-{save_name of vcr_train.sh}/output.txt`.
 
 ### Image Retrieval
 
@@ -81,6 +81,10 @@ We only evaluate in validation set. Run `vcr_train.sh`, and you can get result a
 ### Zero-Shot Image Retrieval
 
 Run `zsir_test.sh` directly, and the result will be printed on the screen after evaluation finishing.
+
+### RefCOCO+
+
+We only evaluate on the validation set. Run `refcoco_train.sh`, and you can get result at the first several lines of `save/refcoco+_bert_base_6layer_6conect-{save_name of refcoco_train.sh}/output.txt`.
 
 ## References
 
